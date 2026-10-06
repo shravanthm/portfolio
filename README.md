@@ -33,6 +33,6 @@ portfolio/
 
 ## 👨‍💻 Author
 **Shravanth M**  
-- **Email**: [shravanthm1908@gmail.com](mailto:shravanthm1908@gmail.com)
+- **Email**: [1hk23ai049@hkbk.edu.in](mailto:1hk23ai049@hkbk.edu.in)
 - **LinkedIn**: [linkedin.com/in/shravanth-m](https://linkedin.com/in/shravanth-m)
 - **GitHub**: [github.com/shravanthm](https://github.com/shravanthm)
