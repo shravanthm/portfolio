@@ -374,7 +374,7 @@ function initContactForm() {
     }
 
     // Construct mailto link
-    const mailtoLink = `mailto:1hk23ai049@hkbk.edu.in?subject=${encodeURIComponent(`[Portfolio] ${subject}`)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+    const mailtoLink = `mailto:shravanthm1908@gmail.com?subject=${encodeURIComponent(`[Portfolio] ${subject}`)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
 
     // Open mail client
     window.location.href = mailtoLink;
