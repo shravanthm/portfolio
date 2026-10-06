@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shravanth M | AI & ML Engineer & Data Analytics Portfolio</title>
+  <meta name="description" content="Portfolio of Shravanth M - AI & ML Engineering Student, Machine Learning Practitioner, Data Analyst, and Python Developer." />
+  <meta name="keywords" content="Shravanth M, AI Engineer, Machine Learning, Data Analytics, Python, Random Forest, FastAPI, Streamlit, Portfolio" />
+  <meta name="author" content="Shravanth M" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background Ambient Glows -->
+  <div class="glow-bg glow-1"></div>
+  <div class="glow-bg glow-2"></div>
+  <div class="glow-bg glow-3"></div>
+
+  <!-- Navigation Header -->
+  <header id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" id="brand-logo">
+        <span class="logo-symbol">&lt;S/M&gt;</span>
+        <span class="logo-text">Shravanth<span class="accent-dot">.</span>ai</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme" title="Toggle Theme">
+          <i class="fa-solid fa-moon" id="theme-icon"></i>
+        </button>
+
+        <a href="assets/resume.pdf" target="_blank" download="Shravanth_M_Resume.pdf" class="btn btn-outline nav-btn" id="nav-resume-btn">
+          <i class="fa-solid fa-file-arrow-down"></i>
+          <span>Resume</span>
+        </a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button id="menu-toggle" class="menu-toggle-btn" aria-label="Toggle Navigation Menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="status-badge reveal-fade">
+            <span class="status-indicator"></span>
+            <span>Open to AI/ML Roles &amp; Internships</span>
+          </div>
+
+          <h1 class="hero-title reveal-fade">
+            Hi, I'm <span class="gradient-text">Shravanth M</span>
+          </h1>
+
+          <div class="typing-container reveal-fade">
+            <span class="typing-prefix">I specialize in </span>
+            <span id="typed-text" class="typed-text"></span>
+            <span class="cursor">&nbsp;</span>
+          </div>
+
+          <p class="hero-description reveal-fade">
+            AI &amp; ML Engineering student passionate about developing data-driven applications, 
+            machine learning models, predictive intelligence systems, and automated real-time dashboards.
+          </p>
+
+          <!-- Quick Stats / Highlights -->
+          <div class="hero-stats reveal-fade">
+            <div class="stat-card">
+              <span class="stat-value">8.45</span>
+              <span class="stat-label">B.E. CGPA</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-value">2+</span>
+              <span class="stat-label">Core AI Projects</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-value">NPTEL</span>
+              <span class="stat-label">GenAI &amp; Cloud Certs</span>
+            </div>
+          </div>
+
+          <!-- Hero CTAs -->
+          <div class="hero-cta-group reveal-fade">
+            <a href="#projects" class="btn btn-primary" id="hero-projects-btn">
+              <span>View Projects</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="assets/resume.pdf" target="_blank" download="Shravanth_M_Resume.pdf" class="btn btn-glass" id="hero-download-btn">
+              <i class="fa-solid fa-download"></i>
+              <span>Download CV</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary" id="hero-contact-btn">
+              <span>Get In Touch</span>
+            </a>
+          </div>
+
+          <!-- Quick Contact Links -->
+          <div class="hero-socials reveal-fade">
+            <a href="https://linkedin.com/in/shravanth-m" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn Profile" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:1hk23ai049@hkbk.edu.in" class="social-icon" title="Email Shravanth" aria-label="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="tel:+917996107759" class="social-icon" title="Call Phone" aria-label="Phone">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Visual Profile Card -->
+        <div class="hero-visual reveal-fade">
+          <div class="profile-card-wrapper">
+            <div class="profile-card-glow"></div>
+            <div class="profile-card">
+              <div class="profile-img-container">
+                <img src="assets/profile.jpg" alt="Shravanth M - AI & ML Engineer" class="profile-img" id="hero-profile-img" />
+                <div class="badge-float badge-top-right">
+                  <i class="fa-solid fa-brain"></i>
+                  <span>AI / ML</span>
+                </div>
+                <div class="badge-float badge-bottom-left">
+                  <i class="fa-brands fa-python"></i>
+                  <span>Python &amp; Analytics</span>
+                </div>
+              </div>
+              <div class="profile-info-footer">
+                <div class="footer-name">Shravanth M</div>
+                <div class="footer-role">Artificial Intelligence &amp; Data Science</div>
+                <div class="footer-location"><i class="fa-solid fa-location-dot"></i> Bengaluru, India</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about-section section">
+      <div class="container">
+        <div class="section-header reveal-fade">
+          <span class="section-tag">Profile Overview</span>
+          <h2 class="section-title">Driven by Data, Powered by <span class="gradient-text">Intelligence</span></h2>
+          <p class="section-subtitle">A snapshot of my engineering journey, problem-solving mindset, and core expertise.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card main-bio-card reveal-fade">
+            <div class="card-icon"><i class="fa-solid fa-user-astronaut"></i></div>
+            <h3>Who I Am</h3>
+            <p>
+              I am an <strong>Artificial Intelligence &amp; Machine Learning Engineering student</strong> at 
+              <strong>HKBK College of Engineering, Bengaluru</strong>. I combine rigorous analytical thinking with hands-on 
+              software engineering to transform complex raw datasets into intelligent, actionable applications.
+            </p>
+            <p>
+              My experience spans end-to-end machine learning pipelines — from data preprocessing, exploratory analysis, 
+              and predictive modeling to backend integration via REST APIs, automated notification workflows, and modern web dashboards.
+            </p>
+            <div class="bio-tags">
+              <span class="bio-tag"><i class="fa-solid fa-check"></i> Supervised Learning</span>
+              <span class="bio-tag"><i class="fa-solid fa-check"></i> Data Visualization</span>
+              <span class="bio-tag"><i class="fa-solid fa-check"></i> Automated Pipelines</span>
+              <span class="bio-tag"><i class="fa-solid fa-check"></i> Full Stack AI Integration</span>
+            </div>
+          </div>
+
+          <div class="about-card feature-card reveal-fade">
+            <div class="card-icon"><i class="fa-solid fa-chart-line"></i></div>
+            <h3>Data &amp; Predictive Analytics</h3>
+            <p>
+              Skilled in transforming structured data into meaningful insights using Pandas, NumPy, Power BI, and interactive Streamlit applications.
+            </p>
+          </div>
+
+          <div class="about-card feature-card reveal-fade">
+            <div class="card-icon"><i class="fa-solid fa-microchip"></i></div>
+            <h3>Machine Learning &amp; AI</h3>
+            <p>
+              Designing and optimizing regression, classification, and ensemble models (Random Forest) tailored for practical industry and academic challenges.
+            </p>
+          </div>
+
+          <div class="about-card feature-card reveal-fade">
+            <div class="card-icon"><i class="fa-solid fa-gears"></i></div>
+            <h3>Automation &amp; Systems</h3>
+            <p>
+              Building automated end-to-end delivery pipelines with PDF reporting (FPDF), SMTP email triggers, IoT sensor integration, and FastAPI endpoints.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNICAL SKILLS SECTION -->
+    <section id="skills" class="skills-section section">
+      <div class="container">
+        <div class="section-header reveal-fade">
+          <span class="section-tag">Technical Proficiency</span>
+          <h2 class="section-title">My Tech Stack &amp; <span class="gradient-text">Skillset</span></h2>
+          <p class="section-subtitle">Tools, libraries, and frameworks I leverage to build robust AI-driven applications.</p>
+        </div>
+
+        <!-- Skills Filter Tabs -->
+        <div class="skills-tabs reveal-fade">
+          <button class="skill-tab active" data-filter="all">All Skills</button>
+          <button class="skill-tab" data-filter="languages">Languages</button>
+          <button class="skill-tab" data-filter="ml-ai">Machine Learning &amp; AI</button>
+          <button class="skill-tab" data-filter="data-viz">Data Analysis &amp; Viz</button>
+          <button class="skill-tab" data-filter="fundamentals">CS Core &amp; Database</button>
+          <button class="skill-tab" data-filter="tools">Tools &amp; Platforms</button>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-grid" id="skills-container">
+
+          <!-- Languages -->
+          <div class="skill-card reveal-fade" data-category="languages">
+            <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
+            <div class="skill-info">
+              <h4>Python</h4>
+              <span class="skill-level">Core Language • Advanced</span>
+              <p>Primary language for Machine Learning, data analysis, automation scripts, and backend APIs.</p>
+            </div>
+          </div>
+
+          <div class="skill-card reveal-fade" data-category="languages">
+            <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+            <div class="skill-info">
+              <h4>C Programming</h4>
+              <span class="skill-level">System &amp; Logic • Core</span>
+              <p>Foundational programming, memory management, algorithms, and structural programming.</p>
+            </div>
+          </div>
+
+          <!-- ML & AI -->
+          <div class="skill-card reveal-fade" data-category="ml-ai">
+            <div class="skill-icon"><i class="fa-solid fa-brain"></i></div>
+            <div class="skill-info">
+              <h4>Supervised Learning</h4>
+              <span class="skill-level">Model Architecture</span>
+              <p>Expertise in Regression, Classification, Multi-Output Models, and Model Evaluation metrics.</p>
+            </div>
+          </div>
+
+          <div class="skill-card reveal-fade" data-category="ml-ai">
+            <div class="skill-icon"><i class="fa-solid fa-tree"></i></div>
+            <div class="skill-info">
+              <h4>Random Forest &amp; Ensembles</h4>
+              <span class="skill-level">Decision Modeling</span>
+              <p>Multi-Output Random Forest Regressor and classifier optimization for high-accuracy predictions.</p>
+            </div>
+          </div>
+
+          <div class="skill-card reveal-fade" data-category="ml-ai">
+            <div class="skill-icon"><i class="fa-solid fa-network-wired"></i></div>
+            <div class="skill-info">
+              <h4>Scikit-learn</h4>
+              <span class="skill-level">ML Library</span>
+              <p>Feature scaling, pipeline building, hyperparameter tuning, cross-validation, and metrics.</p>
+            </div>
+          </div>
+
+          <div class="skill-card reveal-fade" data-category="ml-ai">
+            <div class="skill-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+            <div class="skill-info">
+              <h4>Generative AI</h4>
+              <span class="skill-level">NPTEL Certified</span>
+              <p>Prompt engineering, generative model workflows, and LLM foundations.</p>
+            </div>
+          </div>
+
+          <!-- Data & Viz -->
+          <div class="skill-card reveal-fade" data-category="data-viz">
+            <div class="skill-icon"><i class="fa-solid fa-chart-pie"></i></div>
+            <div class="skill-info">
+              <h4>Power BI</h4>
+              <span class="skill-level">BI Dashboards</span>
+              <p>Building interactive enterprise reports, KPI dashboards, and DAX metric formulations.</p>
+            </div>
+          </div>
+
+          <div class="skill-card reveal-fade" data-category="data-viz">
+            <div class="skill-icon"><i class="fa-solid fa-cubes"></i></div>
+            <div class="skill-info">
+              <h4>Pandas &amp; NumPy</h4>
+              <span class="skill-level">Data Manipulation</span>
+              <p>Data wrangling, matrix calculations, cleaning, transformation, and aggregation.</p>
+            </div>
+          </div>
+
+          <div class="skill-card reveal-fade" data-category="data-viz">
+            <div class="skill-icon"><i class="fa-solid fa-chart-simple"></i></div>
+            <div class="skill-info">
+              <h4>Matplotlib &amp; Seaborn</h4>
+              <span class="skill-level">Statistical Viz</span>
+              <p>Publication-quality plotting, distributions, heatmaps, and exploratory visualization.</p>
+            </div>
+          </div>
+
+          <div class="skill-card reveal-fade" data-category="data-viz">
+            <div class="skill-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <div class="skill-info">
+              <h4>Streamlit</h4>
+              <span class="skill-level">Rapid ML UI</span>
+              <p>Creating interactive web-based data apps and prototype machine learning dashboards.</p>
+            </div>
+          </div>
+
+          <div class="skill-card reveal-fade" data-category="data-viz">
+            <div class="skill-icon"><i class="fa-solid fa-file-excel"></i></div>
+            <div class="skill-info">
+              <h4>Microsoft Excel</h4>
+              <span class="skill-level">Spreadsheet Analytics</span>
+              <p>Formulas, pivot tables, data structuring, charting, and statistical summaries.</p>
+            </div>
+          </div>
+
+          <!-- CS Fundamentals & Database -->
+          <div class="skill-card reveal-fade" data-category="fundamentals">
+            <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+            <div class="skill-info">
+              <h4>MySQL &amp; DBMS</h4>
+              <span class="skill-level">Relational Databases</span>
+              <p>Schema design, SQL queries, indexing, joins, normalization, and relational integrity.</p>
+            </div>
+          </div>
+
+          <div class="skill-card reveal-fade" data-category="fundamentals">
+            <div class="skill-icon"><i class="fa-solid fa-diagram-project"></i></div>
+            <div class="skill-info">
+              <h4>DSA &amp; OOPs</h4>
+              <span class="skill-level">Computer Science Core</span>
+              <p>Data structures, algorithmic efficiency, Object-Oriented design patterns, and modularity.</p>
+            </div>
+          </div>
+
+          <div class="skill-card reveal-fade" data-category="fundamentals">
+            <div class="skill-icon"><i class="fa-solid fa-server"></i></div>
+            <div class="skill-info">
+              <h4>Operating Systems &amp; Networks</h4>
+              <span class="skill-level">Core Engineering</span>
+              <p>Process management, threading, memory paging, TCP/IP, HTTP protocols, and cloud concepts.</p>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div class="skill-card reveal-fade" data-category="tools">
+            <div class="skill-icon"><i class="fa-brands fa-git-alt"></i></div>
+            <div class="skill-info">
+              <h4>Git &amp; GitHub</h4>
+              <span class="skill-level">Version Control</span>
+              <p>Branching, commits, pull requests, collaboration, and repository management.</p>
+            </div>
+          </div>
+
+          <div class="skill-card reveal-fade" data-category="tools">
+            <div class="skill-info">
+              <div class="skill-icon"><i class="fa-solid fa-terminal"></i></div>
+              <h4>VS Code &amp; Dev Tools</h4>
+              <span class="skill-level">Development Environment</span>
+              <p>Virtual environments, debugging, extensions, and workflow productivity.</p>
+            </div>
+          </div>
+
+          <div class="skill-card reveal-fade" data-category="tools">
+            <div class="skill-icon"><i class="fa-solid fa-palette"></i></div>
+            <div class="skill-info">
+              <h4>Canva &amp; Design</h4>
+              <span class="skill-level">Visual Design</span>
+              <p>UI mockup creation, presentation design, poster graphics, and technical diagrams.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects-section section">
+      <div class="container">
+        <div class="section-header reveal-fade">
+          <span class="section-tag">Featured Work</span>
+          <h2 class="section-title">Machine Learning &amp; <span class="gradient-text">Engineering Projects</span></h2>
+          <p class="section-subtitle">Real-world AI implementations solving complex academic and agricultural challenges.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card reveal-fade" id="project-card-1">
+            <div class="project-card-header">
+              <div class="project-category-badge">
+                <i class="fa-solid fa-graduation-cap"></i> AI in Education &amp; Automation
+              </div>
+              <div class="project-featured-badge">Featured</div>
+            </div>
+
+            <h3 class="project-title">AI-Based Student Dropout Prediction &amp; Reporting System</h3>
+            <p class="project-summary">
+              An intelligent early-warning framework that analyzes academic trends and student behavioural patterns 
+              to predict dropout risks and automate timely interventions.
+            </p>
+
+            <div class="project-highlights">
+              <div class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span><strong>Multi-Output Random Forest:</strong> Predicts continuous risk probability across multiple academic factors simultaneously.</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span><strong>Automated PDF Reporting (FPDF):</strong> Generates individualized diagnostic report cards detailing risk metrics.</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span><strong>SMTP Alert Pipeline:</strong> Auto-dispatches real-time alerts to students, academic mentors, and parents for swift intervention.</span>
+              </div>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Machine Learning</span>
+              <span class="tech-tag">Random Forest</span>
+              <span class="tech-tag">FPDF</span>
+              <span class="tech-tag">SMTP</span>
+              <span class="tech-tag">Scikit-learn</span>
+              <span class="tech-tag">Pandas</span>
+            </div>
+
+            <div class="project-card-actions">
+              <button class="btn btn-primary project-modal-trigger" data-project="dropout">
+                <i class="fa-solid fa-circle-info"></i>
+                <span>Explore Architecture</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card reveal-fade" id="project-card-2">
+            <div class="project-card-header">
+              <div class="project-category-badge">
+                <i class="fa-solid fa-seedling"></i> Smart Agriculture &amp; IoT
+              </div>
+              <div class="project-featured-badge">Featured</div>
+            </div>
+
+            <h3 class="project-title">AI-Powered Crop Advisory System with Soil &amp; Weather Integration</h3>
+            <p class="project-summary">
+              An end-to-end intelligent agricultural advisory system integrating hardware IoT telemetry with machine learning 
+              models to deliver real-time crop sustainability and cultivation recommendations.
+            </p>
+
+            <div class="project-highlights">
+              <div class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span><strong>Soil NPK &amp; Weather Analytics:</strong> Ingests soil nutrient data (N, P, K, pH) and live meteorological metrics for accurate yield analysis.</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span><strong>FastAPI &amp; RESTful APIs:</strong> Lightweight high-performance backend serving instant ML inference endpoints.</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span><strong>React.js Dashboard:</strong> Interactive farmer-facing dashboard visualizing telemetry, soil health metrics, and sustainability ratings.</span>
+              </div>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Machine Learning</span>
+              <span class="tech-tag">React.js</span>
+              <span class="tech-tag">FastAPI</span>
+              <span class="tech-tag">REST APIs</span>
+              <span class="tech-tag">IoT Telemetry</span>
+              <span class="tech-tag">Weather APIs</span>
+            </div>
+
+            <div class="project-card-actions">
+              <button class="btn btn-primary project-modal-trigger" data-project="crop">
+                <i class="fa-solid fa-circle-info"></i>
+                <span>Explore Architecture</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section id="certifications" class="certifications-section section">
+      <div class="container">
+        <div class="section-header reveal-fade">
+          <span class="section-tag">Continuous Learning</span>
+          <h2 class="section-title">Certifications &amp; <span class="gradient-text">Credentials</span></h2>
+          <p class="section-subtitle">National Programme on Technology Enhanced Learning (NPTEL) certified courses.</p>
+        </div>
+
+        <div class="certifications-grid">
+          <div class="cert-card reveal-fade">
+            <div class="cert-icon-box">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
+            <div class="cert-content">
+              <div class="cert-issuer"><i class="fa-solid fa-award"></i> NPTEL Certification</div>
+              <h3 class="cert-title">Programming with Generative AI</h3>
+              <p class="cert-desc">
+                Comprehensive training on Generative AI architectures, Prompt Engineering, Large Language Model workflows, and Python integration.
+              </p>
+              <div class="cert-badge-list">
+                <span class="cert-badge">Generative AI</span>
+                <span class="cert-badge">LLM Foundations</span>
+                <span class="cert-badge">Prompting</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cert-card reveal-fade">
+            <div class="cert-icon-box">
+              <i class="fa-solid fa-cloud"></i>
+            </div>
+            <div class="cert-content">
+              <div class="cert-issuer"><i class="fa-solid fa-award"></i> NPTEL Certification</div>
+              <h3 class="cert-title">Cloud Computing and Distributed Systems</h3>
+              <p class="cert-desc">
+                In-depth mastery of virtualization, distributed algorithms, cloud storage architectures, fault tolerance, and scalable infrastructure.
+              </p>
+              <div class="cert-badge-list">
+                <span class="cert-badge">Cloud Architecture</span>
+                <span class="cert-badge">Distributed Systems</span>
+                <span class="cert-badge">Scalability</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="education-section section">
+      <div class="container">
+        <div class="section-header reveal-fade">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">Education &amp; <span class="gradient-text">Qualifications</span></h2>
+          <p class="section-subtitle">Academic timeline showcasing consistent performance and engineering dedication.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item reveal-fade">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-period"><i class="fa-solid fa-calendar-days"></i> 2023 – 2027 (Ongoing)</span>
+                <span class="timeline-score-badge">CGPA: 8.45</span>
+              </div>
+              <h3 class="degree-title">Bachelor of Engineering (B.E.) in Artificial Intelligence and Machine Learning</h3>
+              <h4 class="institution-name"><i class="fa-solid fa-building-columns"></i> HKBK College of Engineering, Bengaluru</h4>
+              <p class="education-details">
+                Focused on machine learning, deep neural networks, data structures &amp; algorithms, database systems, and full-stack software development. 
+                Actively participating in AI labs, technical projects, and data science research.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item reveal-fade">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-period"><i class="fa-solid fa-calendar-days"></i> 2021 – 2023</span>
+                <span class="timeline-score-badge">Score: 86%</span>
+              </div>
+              <h3 class="degree-title">Pre-University Course (PCMB - Physics, Chemistry, Mathematics, Biology)</h3>
+              <h4 class="institution-name"><i class="fa-solid fa-school"></i> Karnataka Public School, Sundarpalya</h4>
+              <p class="education-details">
+                Built rigorous foundational knowledge in analytical mathematics, physics, logic formulation, and systematic scientific problem solving.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section section">
+      <div class="container">
+        <div class="section-header reveal-fade">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Let's Connect &amp; <span class="gradient-text">Collaborate</span></h2>
+          <p class="section-subtitle">Whether you have an internship opportunity, project collaboration, or want to discuss AI, feel free to reach out!</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <!-- Contact Info Cards -->
+          <div class="contact-cards reveal-fade">
+            <div class="contact-card">
+              <div class="contact-card-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="contact-card-info">
+                <h4>Email Address</h4>
+                <a href="mailto:1hk23ai049@hkbk.edu.in" class="contact-link" id="email-link">1hk23ai049@hkbk.edu.in</a>
+              </div>
+              <button class="copy-btn" data-copy="1hk23ai049@hkbk.edu.in" title="Copy Email" aria-label="Copy Email">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="contact-card-info">
+                <h4>Phone Number</h4>
+                <a href="tel:+917996107759" class="contact-link" id="phone-link">+91 79961 07759</a>
+              </div>
+              <button class="copy-btn" data-copy="+917996107759" title="Copy Phone" aria-label="Copy Phone">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div class="contact-card-info">
+                <h4>LinkedIn</h4>
+                <a href="https://linkedin.com/in/shravanth-m" target="_blank" rel="noopener noreferrer" class="contact-link">linkedin.com/in/shravanth-m</a>
+              </div>
+              <a href="https://linkedin.com/in/shravanth-m" target="_blank" rel="noopener noreferrer" class="link-btn" title="Open LinkedIn" aria-label="Open LinkedIn">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="contact-card-info">
+                <h4>Location</h4>
+                <span class="contact-link">Bengaluru, Karnataka, India</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-container reveal-fade">
+            <form id="portfolio-contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="contact-name">Your Name</label>
+                <input type="text" id="contact-name" name="name" placeholder="John Doe" required />
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email">Your Email</label>
+                <input type="email" id="contact-email" name="email" placeholder="john@example.com" required />
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject">Subject</label>
+                <input type="text" id="contact-subject" name="subject" placeholder="Internship Opportunity / AI Collaboration" required />
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" name="message" rows="4" placeholder="Hello Shravanth, I came across your portfolio and would like to connect..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary submit-btn" id="send-message-btn">
+                <span>Send Message</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#hero" class="brand-logo footer-logo">
+          <span class="logo-symbol">&lt;S/M&gt;</span>
+          <span class="logo-text">Shravanth<span class="accent-dot">.</span>ai</span>
+        </a>
+        <p class="footer-copy">Crafting intelligent data-driven experiences with precision and code.</p>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://linkedin.com/in/shravanth-m" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:1hk23ai049@hkbk.edu.in" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="tel:+917996107759" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+        <a href="assets/resume.pdf" target="_blank" download="Shravanth_M_Resume.pdf" aria-label="Resume"><i class="fa-solid fa-file-pdf"></i></a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> Shravanth M. Built with precision and modern web standards.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- PROJECT ARCHITECTURE MODAL -->
+  <div id="project-modal" class="modal-overlay" aria-hidden="true">
+    <div class="modal-dialog">
+      <button class="modal-close" id="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div id="modal-content" class="modal-body">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toast" class="toast-notification" role="alert" aria-live="assertive">
+    <i class="fa-solid fa-circle-check toast-icon" id="toast-icon"></i>
+    <span id="toast-message">Copied to clipboard!</span>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="script.js"></script>
+</body>
+</html>
